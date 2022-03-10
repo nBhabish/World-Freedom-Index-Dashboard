@@ -1,0 +1,32 @@
+@media (max-width: 576px) {  
+  .navbar-header {
+    width: 100% !important;
+  }
+  .navbar-toggle {
+      float: right !important;
+  }
+}
+
+.pull-right {
+  float: right !important;
+}
+
+/*changing background color of well panel*/
+.well {
+    display: block;
+    background-color: #002244;
+    color: white;
+    padding: 1.25rem;
+    border-radius: .60rem
+}
+
+/*navbar background color*/
+.bg-light, .navbar.navbar-default {
+    background-color: #002244 !important;
+    color: white;
+}
+
+/*changing color of title in navbar */
+.navbar-light .navbar-brand, .navbar.navbar-default .navbar-brand {
+    color: #fff;
+}
